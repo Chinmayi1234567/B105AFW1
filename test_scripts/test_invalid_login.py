@@ -6,7 +6,7 @@ from page.login_page import LoginPage
 class Test_InvalidLogin(BaseClass):
 
     def test_invalid_login(self):
-        un = Excel.get_data(self.XLPATH, 'InvalidLogin', 2, 1)
+        un = Excel.get_data(self.XLPATH, 'InnvalidLogin', 2, 1)
         pw = Excel.get_data(self.XLPATH, 'InvalidLogin', 2, 2)
 
         # 1. enter invalid username

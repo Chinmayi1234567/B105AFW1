@@ -1,3 +1,5 @@
+import pytest
+
 from generic.base_class import BaseClass
 from generic.utility import Excel
 from page.login_page import LoginPage
@@ -5,6 +7,7 @@ from page.login_page import LoginPage
 
 class Test_InvalidLogin(BaseClass):
 
+    @pytest.mark.run(order=2)
     def test_invalid_login(self):
         un = Excel.get_data(self.XLPATH, 'InnvalidLogin', 2, 1)
         pw = Excel.get_data(self.XLPATH, 'InvalidLogin', 2, 2)

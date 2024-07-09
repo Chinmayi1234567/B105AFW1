@@ -1,0 +1,12 @@
+path of generic package is: C:\Users\Chinmayi Avinish\PycharmProjects\B105AFW\generic
+
+Open The Browser in Local System: chrome
+Enter the URL: https://pos.aksharatraining.in/pos/public/
+Set ITO: 9
+Set ETO: 8
+Maximize the browser
+Cell value is NONE
+Excel data 
+Mkart | OSPOS | Login
+end
+Close the browser
